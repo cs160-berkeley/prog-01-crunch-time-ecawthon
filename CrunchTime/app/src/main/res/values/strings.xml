@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">CrunchTime</string>
+    <string name="count_label">How many...</string>
+    <string name="count_unit">Reps</string>
+    <string name="time_unit">Minutes</string>
+
+    <string-array name="input_types">
+        <item>Reps</item>
+        <item>Minutes</item>
+    </string-array>
+
+    <string-array name="exercises">
+        <item>Pushups</item>
+        <item>Situps</item>
+        <item>Jumping Jacks</item>
+        <item>Jogging</item>
+    </string-array>
 </resources>
