@@ -1,22 +1,49 @@
-# PROG 01: Crunch Time
+# PROG 01: Crunch Time (Eleanor's Energy Equivalence Engine!)
 
-Briefly describe your app here.
+Convert among exercises with time or reps, calories, and other exercises to
+find energy-equivalent exercise options.
+
+This is not medical advice.
 
 ## Authors
 
-FirstName LastName ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Eleanor Cawthon (eleanor@eecs.berkeley.edu)
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See [Eleanor's Energy Equivalence Engine](https://youtu.be/ladV2umAVkA) in
+action!
 
-## Screenshots
+## Instructions, with Screenshots
 
+### Step 0: Main Screen
+Note the effective use of screen space and the lack of clutter
 <img src="screenshots/main.png" height="400" alt="Screenshot"/>
+### Step 1: Choose an Exercise
+<img src="screenshots/menu_up.png" height="400" alt="Screenshot"/>
+### Step 2: Quantify Your Workout
+<img src="screenshots/step2.png" height="400" alt="Screenshot"/>
+### Step 3: Hit Calculate!
+<img src="screenshots/step3.png" height="400" alt="Screenshot"/>
+### Bonus:
+Both the input and the output can be chosen from a drop-down list. Set one to
+"Calories" and  the other to an exercise to see how many minutes or repetitions
+of that exercise will burn a given number of calories, or to
+  see how many calories a particular workout will burn.
+
+<img src="screenshots/calories2exercises.png" height="400" alt="Screenshot"/>
+
+You can also find equivalent workouts of different kinds of exercises:
+
+<img src="screenshots/twoexercises.png" height="400" alt="Screenshot"/>
+
+So, according to the tables provided, 100 squats burn the same number of
+calories as 4.44 minutes of jumping jacks.
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Any other support
-
-*Feel free to enhance your README. For Markdown syntax, see [the GitHub Guides](https://guides.github.com/features/mastering-markdown/). Remove this line in your submission.*
+Hat tips to
+* Android Studio
+* StackOverflow, developer.android.com,
+* Workers in the supply chain for the electronics used
+* Custodial staff of Soda Hall
