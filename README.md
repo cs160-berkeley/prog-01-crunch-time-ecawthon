@@ -31,7 +31,7 @@ Both the input and the output can be chosen from a drop-down list. Set one to
 of that exercise will burn a given number of calories, or to
   see how many calories a particular workout will burn.
 
-<img src="screenshots/calories2exercises.png" height="400" alt="Screenshot"/>
+<img src="screenshots/calories2exercise.png" height="400" alt="Screenshot"/>
 
 You can also find equivalent workouts of different kinds of exercises:
 
