@@ -4,7 +4,7 @@ android {
     compileSdkVersion 22
     buildToolsVersion '23.0.2'
     defaultConfig {
-        applicationId "io.github.ecawthon.crunchtime"
+        applicationId "io.github.ecawthon.energyequivalence"
         minSdkVersion 21
         targetSdkVersion 22
         versionCode 1

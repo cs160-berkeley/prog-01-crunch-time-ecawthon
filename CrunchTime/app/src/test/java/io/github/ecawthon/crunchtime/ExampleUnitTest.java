@@ -1,4 +1,4 @@
-package io.github.ecawthon.crunchtime;
+package io.github.ecawthon.energyequivalence;
 
 import org.junit.Test;
 

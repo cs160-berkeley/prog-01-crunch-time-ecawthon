@@ -1,4 +1,4 @@
-package io.github.ecawthon.crunchtime;
+package io.github.ecawthon.energyequivalence;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

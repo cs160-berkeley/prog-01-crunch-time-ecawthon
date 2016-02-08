@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CrunchTime</string>
+    <string name="app_name">Energy Equivalence</string>
     <string name="input_label">Convert from:</string>
     <string name="transition_label">to:</string>
     <string name="count_label">How many...</string>

@@ -1,4 +1,4 @@
-package io.github.ecawthon.crunchtime;
+package io.github.ecawthon.energyequivalence;
 
 /**
  * an Exercise groups information about the name of the exercise, the units
