@@ -1,71 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="fill_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="io.github.ecawthon.crunchtime.CalorieConverter">
+    tools:context="io.github.ecawthon.crunchtime.CalorieConverter"
+    >
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+    <!--<LinearLayout-->
+        <!--android:id="@+id/linearLayout2"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--android:gravity="fill_vertical"-->
+        <!--android:foregroundGravity="center_vertical"-->
+        <!--android:baselineAligned="true">-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/input_label"
+            android:id="@+id/inputLabel"
+            android:layout_weight="2"
+            android:gravity="center_vertical" />
+
+        <Spinner
+            android:id="@+id/fromSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown" />
 
         <LinearLayout
-            android:id="@+id/linearLayout"
+            android:id="@+id/inputLayout"
             android:layout_width="match_parent"
-            android:layout_height="72dp"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:measureWithLargestChild="false"
+            android:baselineAligned="false"
+            >
 
             <EditText
-                android:id="@+id/count"
+                android:id="@+id/inputCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:ems="10"
                 android:inputType="number"
-                android:text="@string/count_label" />
+                android:enabled="true"
+                android:focusable="true"
+                android:hint="@string/count_label"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"/>
 
-            <RadioGroup
-                android:id="@+id/inputType"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_alignParentTop="true"
-                android:layout_toEndOf="@+id/count">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fromUnit"
+                android:layout_gravity="center_vertical"
+                android:enabled="true"
+                android:text="Reps"
+                android:layout_weight="1"
+                android:gravity="center">
 
-                <RadioButton
-                    android:id="@+id/radioButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:checked="false"
-                    android:text="@string/count_unit" />
-
-                <RadioButton
-                    android:id="@+id/radioButton2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:checked="false"
-                    android:text="@string/time_unit" />
-
-            </RadioGroup>
+            </TextView>
 
         </LinearLayout>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/transition_label"
+            android:id="@+id/transitionLabel"
+            android:layout_weight="2"
+            android:gravity="center_vertical" />
+
         <Spinner
-            android:id="@+id/excSpinner"
+            android:id="@+id/toSpinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:spinnerMode="dropdown" />
 
-    </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update_label"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"/>
 
-</RelativeLayout>
+        <LinearLayout
+            android:id="@+id/outputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:baselineAligned="false"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/outputCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:enabled="false"
+                android:focusable="false"
+                android:hint="@string/count_label"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:id="@+id/toUnit"
+                android:layout_gravity="center_vertical"
+                android:enabled="true"
+                android:text="Reps"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>
 

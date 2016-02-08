@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="rep_conv">
+        <item name="pushups">350</item>
+        <item name="situps">200</item>
+        <item name="squats">225</item>
+        <item name="pullups">100</item>
+    </integer-array>
+
+    <integer-array name="time_conv">
+        <item name="jumping_jacks">10</item>
+        <item name="jogging">12</item>
+        <item name="leg_lift">25</item>
+        <item name="plank">25</item>
+        <item name="cycling">12</item>
+        <item name="walking">20</item>
+        <item name="jogging">12</item>
+        <item name="swimming">13</item>
+        <item name="stair_climbing">15</item>
+    </integer-array>
+</resources>
