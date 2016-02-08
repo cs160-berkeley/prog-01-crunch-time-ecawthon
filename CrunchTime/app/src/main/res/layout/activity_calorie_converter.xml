@@ -11,15 +11,6 @@
     tools:context="io.github.ecawthon.crunchtime.CalorieConverter"
     >
 
-    <!--<LinearLayout-->
-        <!--android:id="@+id/linearLayout2"-->
-        <!--android:layout_width="fill_parent"-->
-        <!--android:layout_height="fill_parent"-->
-        <!--android:orientation="vertical"-->
-        <!--android:gravity="fill_vertical"-->
-        <!--android:foregroundGravity="center_vertical"-->
-        <!--android:baselineAligned="true">-->
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -62,7 +53,6 @@
                 android:id="@+id/fromUnit"
                 android:layout_gravity="center_vertical"
                 android:enabled="true"
-                android:text="Reps"
                 android:layout_weight="1"
                 android:gravity="center">
 
@@ -99,8 +89,6 @@
             android:id="@+id/outputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_gravity="center_vertical"
             android:baselineAligned="false"
             android:layout_weight="1">
 
@@ -127,8 +115,6 @@
                 android:textStyle="bold"/>
 
         </LinearLayout>
-
-    <!--</LinearLayout>-->
 
 </LinearLayout>
 

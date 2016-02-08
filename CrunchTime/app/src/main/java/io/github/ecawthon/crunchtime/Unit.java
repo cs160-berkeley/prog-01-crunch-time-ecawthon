@@ -1,13 +1,13 @@
 package io.github.ecawthon.crunchtime;
 
 /**
- * Created by eleanor on 2/5/16.
+ * The possible units for exercises
  */
 public enum Unit {
     REP("Rep(s)"), MINUTE("Minute(s)"), CALORIE("Calorie(s)");
     String name;
 
-    private Unit(String n) {
+    Unit(String n) {
         this.name = n;
     }
 }
