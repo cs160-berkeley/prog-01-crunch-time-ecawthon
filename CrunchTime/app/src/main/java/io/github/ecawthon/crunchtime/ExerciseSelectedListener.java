@@ -24,6 +24,7 @@ public class ExerciseSelectedListener implements AdapterView.OnItemSelectedListe
         uView.setText(cc.excs.get(parent
                         .getItemAtPosition(pos).toString())
                         .getUnit().name);
+        cc.outCount.setText("");
     }
 
     @Override
